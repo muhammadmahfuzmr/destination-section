@@ -2,11 +2,45 @@ body {
     width: 1440px;
 }
 
+.about-popular-spot {
+    display: flex;
+    gap: 50px;
+    margin: 0 135px;
+}
+
+.popular-spot {
+    width: 540px;
+    height: 550px;
+}
+
+.about-popular-spot p {
+    margin: 24px 0;
+}
+
+.about-popular-spot li {
+    margin: 20px 0;
+}
+
+.btn {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+
+}
+
+.primary-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    border: none;
+    padding: 20px 25px;
+}
+
 .destination {
     margin: 100px 135px;
 }
 
-.destination-details, .choosing-details {
+.destination-details,
+.choosing-details {
     max-width: 643px;
     text-align: center;
     margin: 0 auto 48px;
@@ -110,17 +144,21 @@ body {
 
 /* responsibe */
 @media screen and (max-width:600px) {
-    .destination, .choosing-us {
 
-        margin: 0px 0px;
+    .destination,
+    .choosing-us {
+
+        margin: 0;
     }
 
-    .destination-details, .choosing-details {
+    .destination-details,
+    .choosing-details {
         max-width: 309px;
         margin: 3px;
     }
 
-    .heading, .card-title {
+    .heading,
+    .card-title {
         font-size: 20px;
     }
 
@@ -157,11 +195,29 @@ body {
         width: 265px;
         margin: 0;
     }
-    .price{
+
+    .price {
         margin-top: 16px;
     }
-    .card-details{
+
+    .card-details {
         max-width: 271px;
     }
+
+    .about-popular-spot {
+        flex-direction: column;
+        gap: 24px;
+        margin: 0;
+    }
+
+    .about-spot {
+        width: 335px;
+    }
+
+    .popular-spot {
+        width: 335px;
+        height: 342px;
+    }
+
 
 }
