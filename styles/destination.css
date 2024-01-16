@@ -1,7 +1,9 @@
 body {
     width: 1440px;
 }
-
+main{
+    margin: 0 135px;
+}
 .about-popular-spot {
     display: flex;
     gap: 50px;
@@ -140,7 +142,9 @@ body {
     display: flex;
     gap: 24px;
 }
-
+.contact-details{
+    color: #5A5A5D;
+}
 
 /* responsibe */
 @media screen and (max-width:600px) {
